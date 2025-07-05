@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Blog</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Trending</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div id="hero-container" class="hero-container"></div>
+
+                <!-- one main card for heading -->
+
+                <template id="hero-card-template">
+                    <div class="hero_card">
+                        <img src="" alt="hero Image" loading="lazy">
+
+                        <div class="hero_card_body">
+                        <h3>Title</h3>
+                        <p>Description here...</p>
+                        <a href="#">More</a>
+                        </div>
+                    </div>
+                </template>
+
+        </section>
+
+        <section class="blogs">
+            <h2>Blogs</h2>
+            <div class="blog-container" id="blog-container">
+
+            </div>
+
+            <template id="blog-card-template">
+                <div class="blog_card">
+                    <img src="" alt="Blog Image" loading="lazy">
+
+                    <div class="blog_card_body">
+                    <h3>Title</h3>
+                    <p>Description here...</p>
+                    <a href="#">More</a>
+                    </div>
+                </div>
+            </template>
+
+            <a href="#">More</a>
+
+        </section>
+
+        <section class="trending">
+            <h2>Featured</h2>
+            <div id="featured-container" class="featured-container"></div>
+
+            <template id="featured-card-template">
+                <div class="featured_card">
+                    <img src="" alt="featured Image" loading="lazy">
+
+                    <div class="featured_card_body">
+                    <h3>Title</h3>
+                    <p>Description here...</p>
+                    <a href="#">More</a>
+                    </div>
+                </div>
+            </template>
+        </section>
+    </main>
+
+    <footer>
+        All rights reserved.
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
