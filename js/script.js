@@ -3,56 +3,56 @@ const blogData = [
   {
     title: "Blog 1",
     description: "This is the first blog post.",
-    image: "images/img8.jpg",
+    image: "images/img8.webp",
     link: "#"
   },
 
   {
     title: "Blog 2",
     description: "Second blog post description goes here.",
-    image: "images/img1.jpg",
+    image: "images/img1.webp",
     link: "#"
   },
 
   {
     title: "Blog 2",
     description: "Second blog post description goes here.",
-    image: "images/img2.jpg",
+    image: "images/img2.webp",
     link: "#"
   },
 
   {
     title: "Blog 2",
     description: "Second blog post description goes here.",
-    image: "images/img3.jpg",
+    image: "images/img3.webp",
     link: "#"
   },
 
   {
     title: "Blog 2",
     description: "Second blog post description goes here.",
-    image: "images/img4.jpg",
+    image: "images/img4.webp",
     link: "#"
   },
 
   {
     title: "Blog 2",
     description: "Second blog post description goes here.",
-    image: "images/img5.jpg",
+    image: "images/img5.webp",
     link: "#"
   },
 
   {
     title: "Blog 2",
     description: "Second blog post description goes here.",
-    image: "images/img6.jpg",
+    image: "images/img6.webp",
     link: "#"
   },
 
   {
     title: "Blog 2",
     description: "Second blog post description goes here.",
-    image: "images/img7.jpg",
+    image: "images/img7.webp",
     link: "#"
   }
 
@@ -81,7 +81,7 @@ const heroData = [
   {
     title: "Blog 1",
     description: "This is the first blog post.",
-    image: "images/img11.jpg",
+    image: "images/img11.webp",
     link: "#"
   },
 
@@ -109,7 +109,28 @@ const featuredData = [
   {
     title: "Blog 1",
     description: "This is the first blog post.",
-    image: "images/img10.jpg",
+    image: "images/img10.webp",
+    link: "#"
+  },
+
+    {
+    title: "Blog 1",
+    description: "This is the first blog post.",
+    image: "images/img10.webp",
+    link: "#"
+  },
+
+    {
+    title: "Blog 1",
+    description: "This is the first blog post.",
+    image: "images/img10.webp",
+    link: "#"
+  },
+
+    {
+    title: "Blog 1",
+    description: "This is the first blog post.",
+    image: "images/img10.webp",
     link: "#"
   },
 

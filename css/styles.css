@@ -21,6 +21,14 @@ header {
     text-align: center;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: blue;
+}
+
 h1 {
     margin-bottom: 1.7em;
 }
@@ -54,7 +62,15 @@ h2 {
 
 img {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
+
+.blog_template_conatainer {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}   
 
 .blog-container {
     display: grid;
@@ -62,9 +78,20 @@ img {
     gap: 1.5em
 }
 
-.blog_card {
+.blog_card, .featured_card {
     background-color: #f4f4f4;
+    min-width: 200px;
+}
+
+.blog_card_body, .hero_card_body, .featured_card_body {
     padding: 1.5em;
+}
+
+.featured-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
 }
 
 footer {
