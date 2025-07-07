@@ -7,6 +7,15 @@
 body {
     max-width: 1440px;
     margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Fraunces", serif;
+}
+
+h3 {
+    margin-bottom: 1em;
 }
 
 
@@ -19,31 +28,30 @@ header {
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    height: 60px;
 }
 
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    height: calc( 100vh - 60px);
     background-color: blue;
+    width: 100%;
 }
 
 h1 {
     margin-bottom: 1.7em;
 }
 
-nav ul {
+.nav-lists {
     display: flex;
     flex-direction: column;
     gap: 1.5em;
 }
 
-nav ul li {
+.nav-lists li {
     list-style: none;
 }
 
-nav ul li a {
+.nav-lists li a {
     color: white;
     text-decoration: none;
 }
@@ -60,7 +68,7 @@ h2 {
     margin-bottom: 1.5em;
 }
 
-img {
+.blogs img, .featured img {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -70,7 +78,19 @@ img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-}   
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero_card_template {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .blog-container {
     display: grid;
